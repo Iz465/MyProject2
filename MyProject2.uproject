@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{721C53B0-4C7C-6767-935D-829F936075D2}",
+	"EngineAssociation": "{19B70F8F-47DC-2766-2C57-8DAD938396C1}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "MyProject2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
